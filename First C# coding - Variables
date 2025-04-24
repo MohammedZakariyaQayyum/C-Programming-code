@@ -14,9 +14,11 @@ namespace MyApplication
       int myNum = 27; //This is an integer variable
       Console.WriteLine(myNum); // This displays the variable
       string myWord = "Word"; //This is a string variable
-      Console.WriteLine("This is my " + myWord); //This displays the variable after some text
+      Console.WriteLine("This is my " + myWord); //This displays teh variable after some text
       const double Pi = 3.14159; //This is a variable that cannot be changed
       Console.WriteLine(Pi);
+      int x = 5, y = 6, z = 50; //This is multiple int variables on a single line
+      Console.WriteLine(x + y + z);
     }
   }
 }
