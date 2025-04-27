@@ -6,11 +6,13 @@ namespace MyApplication
   static void Main(string[] args)
  {
       int myNum = 5;               // integer (whole number)
-      double myDoubleNum = 5.99D;  // floating point number
-      char myLetter = 'D';         // character
-      bool myBool = true;          // boolean
+      long mylongNum = 15000000000L; // longer integer numbers
+      double myDoubleNum = 5.99D;  // floating point number with more precision than float(upto 15 decimal digits)
+      char myLetter = 'D';         // stores a single character
+      bool myBool = true;          // boolean - stores true or false
       string myText = "Hello";     // string
       Console.WriteLine(myNum);
+      Console.WriteLine(mylongNum);
       Console.WriteLine(myDoubleNum);
       Console.WriteLine(myLetter);
       Console.WriteLine(myBool);
